@@ -14,7 +14,14 @@ The following technologies are utilized:
 * Java Message Service (JMS)
 
 ## Screenshots
-
+![Login](https://raw.githubusercontent.com/NaClts/JPoker24Game/refs/heads/main/screenshots/1_login.png)
+![Register](https://raw.githubusercontent.com/NaClts/JPoker24Game/refs/heads/main/screenshots/2_register.png)
+![User Profile](https://raw.githubusercontent.com/NaClts/JPoker24Game/refs/heads/main/screenshots/3_user_profile.png)
+![Game Initial Stage](https://raw.githubusercontent.com/NaClts/JPoker24Game/refs/heads/main/screenshots/4_game_initial.png)
+![Game Joining Stage](https://raw.githubusercontent.com/NaClts/JPoker24Game/refs/heads/main/screenshots/5_game_joining.png)
+![Game Playing Stage](https://raw.githubusercontent.com/NaClts/JPoker24Game/refs/heads/main/screenshots/6_game_playing.png)
+![Game Over Stage](https://raw.githubusercontent.com/NaClts/JPoker24Game/refs/heads/main/screenshots/7_game_over.png)
+![Leaderboard](https://raw.githubusercontent.com/NaClts/JPoker24Game/refs/heads/main/screenshots/8_leaderboard.png)
 
 ## Installation / Compilation
 
@@ -80,26 +87,26 @@ Destination:
 6. Change directory to "src" folder.
 
 7. Add JDBC & GlassFish JAR files to CLASSPATH environment variable: (Please replace the path to the JAR files!)
-`export CLASSPATH=$CLASSPATH:/ … /mysql-connector-j-9.3.0.jar`
-`export CLASSPATH=$CLASSPATH:/ … /glassfish5/glassfish/lib/gf-client.jar`
+```export CLASSPATH=$CLASSPATH:/ … /mysql-connector-j-9.3.0.jar```
+```export CLASSPATH=$CLASSPATH:/ … /glassfish5/glassfish/lib/gf-client.jar```
 
 8. Compile the Java source files:
-`javac *.java`
+```javac *.java```
 
 ## Execution
 
 1. Run RMI registry:
-`rmiregistry &`
+```rmiregistry &```
 
 2. Add JDBC & GlassFish JAR files to CLASSPATH environment variable: (Please replace the path to the JAR files!)
-`export CLASSPATH=$CLASSPATH:/ … /mysql-connector-j-9.3.0.jar`
-`export CLASSPATH=$CLASSPATH:/ … /glassfish5/glassfish/lib/gf-client.jar`
+```export CLASSPATH=$CLASSPATH:/ … /mysql-connector-j-9.3.0.jar```
+```export CLASSPATH=$CLASSPATH:/ … /glassfish5/glassfish/lib/gf-client.jar```
 
 3. Run main server program:
-`java -Djava.security.policy=../security.policy JPoker24GameServer`
+```java -Djava.security.policy=../security.policy JPoker24GameServer```
 
 4. Run main client program:
-`java -Djava.security.policy=../security.policy JPoker24Game`
+```java -Djava.security.policy=../security.policy JPoker24Game```
 
 ## Remarks
 
